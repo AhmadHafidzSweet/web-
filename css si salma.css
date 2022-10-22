@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image:url(pexels-abdullah-ghatasheh-1631677.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+nav{
+    margin:auto;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul{
+    background-color: #06283D;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 97%;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li:hover{
+    background-color: #47B5FF;
+}
+
+nav ul li a:hover{
+    color: #fff;
+}
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color:#fff;
+    text-decoration: none;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    transform: translate(50%,50%);
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 42.5%;
+    transform: translate(50%,50%);
+}
+ 
+.bebas{
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    transform: translate(50%,50%);
+}
+
+
+
+.btn{
+    padding: 10px 15px;
+    width:50px;
+    height:30px;
+    background-color:#fff;
+    border-radius: 8%;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    font-size: 17px;
+    
+    
+}
+
+.bebas{
+    padding: 10px 15px;
+    width:50px;
+    height:30px;
+    background-color:#fff;
+    border-radius: 8%;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    font-size: 17px;
+}
+
+.btn:hover{
+    background-color: rgba(255, 160, 122, 0.878) ;
+    color:#fff;
+}
+
+.bebas:hover{
+    background-color: rgba(255, 160, 122, 0.878) ;
+    color:#fff;
+}
+
+
+.title h1{
+    color: #fff;
+}
+
+
+.btn2{
+    padding: 10px 15px;
+    width: 70px;
+    height:30px;
+    background-color:#fff;
+    border-radius: 8%;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    font-size: 17px;
+}
